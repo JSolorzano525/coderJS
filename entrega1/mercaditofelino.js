@@ -1,4 +1,4 @@
-let compra = prompt("¿Estas seguro de tu compra?").toLowerCase().trim();
+/*let compra = prompt("¿Estas seguro de tu compra?").toLowerCase().trim();
 let total = 0;
 const costoBuzo = 2000;
 const costoCama = 6000;
@@ -63,3 +63,34 @@ total = sumar(total, iva);
 console.log("total ==> ", total);
 
 alert("el total es " + total);
+*/
+class Producto {
+  constructor(nombre, precio) {
+    this.nombre = nombre;
+    this.precio = precio;
+  }
+}
+
+const producto1 = new Producto("buzo para gatos de algodon", 2000);
+
+const producto2 = {
+  nombre: "cama hamaca para gatos",
+  precio: 6000,
+};
+
+/* {
+  nombre="hierba gatera x 6 plantines",
+  precio = 1500;
+}
+{
+  nombre = "ratita de juguete",
+  precio = 1600;
+}
+{
+   nombre = "comedero elevado para gatos"
+   precio = 1600;
+
+} */
+
+console.log(producto1.nombre);
+console.log(producto2.nombre);
