@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #2d0553;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 5rem;
+  color: #1b0349;
+  text-align: center;
+}
+
+h4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: whitesmoke;
+}
+
+.logo {
+  width: 30rem;
+  margin: 2.5rem;
+  opacity: 50%;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #8a2be28f;
+}
+.nav-item {
+  font-size: 2rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.buscar {
+  background-color: #0080001f;
+  font-size: 2rem;
+}
+
+.market-grid {
+  padding: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: white;
+  grid-template-areas:
+    "prod prec cant"
+    "p1 pr1 cant1"
+    "p2 pr2 cant2"
+    "p3 pr3 cant3"
+    "p4 pr4 cant4"
+    "p5 pr5 cant5";
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.market-grid img {
+  height: 300px;
+}
+
+.prod {
+  grid-area: prod;
+}
+
+.precio {
+  grid-area: prec;
+}
+
+.cant {
+  grid-area: cant;
+}
+
+.st {
+  grid-area: st;
+}
+
+.prod-pr1 {
+  grid-area: pr1;
+}
+.prod-pr2 {
+  grid-area: pr2;
+}
+.prod-pr3 {
+  grid-area: pr3;
+}
+.prod-pr4 {
+  grid-area: pr4;
+}
+.prod-pr5 {
+  grid-area: pr5;
+}
+
+.prod-cant1 {
+  grid-area: cant1;
+}
+.prod-cant2 {
+  grid-area: cant2;
+}
+.prod-cant3 {
+  grid-area: cant3;
+}
+.prod-cant4 {
+  grid-area: cant4;
+}
+.prod-cant5 {
+  grid-area: cant5;
+}
+
+.prod-st1 {
+  grid-area: st1;
+}
+.prod-st2 {
+  grid-area: st2;
+}
+
+.prod-st3 {
+  grid-area: st3;
+}
+.prod-st4 {
+  grid-area: st4;
+}
+.prod-st5 {
+  grid-area: st5;
+}
+
+.producto1 {
+  grid-area: p1;
+}
+.producto2 {
+  grid-area: p2;
+}
+.producto3 {
+  grid-area: p3;
+}
+.producto4 {
+  grid-area: p4;
+}
+.producto5 {
+  grid-area: p5;
+}
+
+#comprar {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 30%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #8a2be28f;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+.footer-title {
+  color: #c7ee5d;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.link-redes img {
+  width: 8rem;
+  display: inline;
+}
+
+.redes-container img {
+  margin: 1rem;
+}
