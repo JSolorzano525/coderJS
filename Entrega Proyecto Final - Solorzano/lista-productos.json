@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": "buzo",
+      "nombre": "buzo para gatos de algodon",
+      "imagen": "img_catking/prenda1.jpg",
+      "precio": 2500
+    },
+    {
+      "id": "cama",
+      "nombre": "cama hamaca para gatos",
+      "imagen": "img_catking/cama_hamaca.jpg",
+      "precio": 6000
+    },
+    {
+      "id": "hierba",
+      "nombre": "hierba gatera x 6 plantines",
+      "imagen": "img_catking/hierba-gatera.jpg",
+      "precio": 1500
+    },
+    {
+      "id": "juguete",
+      "nombre": "ratita de juguete",
+      "imagen": "img_catking/ratita-juguete.jpg",
+      "precio": 1600
+    },
+    {
+      "id": "comedero",
+      "nombre": "comedero elevado para gatos",
+      "imagen": "img_catking/comedero-elevado.jpg",
+      "precio": 1600
+    }
+  ]
+}
